@@ -1,10 +1,6 @@
 package modelo;
 
-/**
- * Clase base para representar un animal.
- * @author TuNombre
- * @version 1.0
- */
+
 public class Animal {
     private String nombre;
 

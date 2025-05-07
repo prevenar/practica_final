@@ -3,9 +3,7 @@ package modelo;
 import modelo.Perro;
 import modelo.Gato;
 
-/**
- * Clase principal para probar los animales.
- */
+
 public class App {
     public static void main(String[] args) {
         Perro perro = new Perro("Toby");

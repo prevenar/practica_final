@@ -1,8 +1,7 @@
 package modelo;
 
-/**
- * Representa un perro, subclase de Animal.
- */
+
+
 public class Perro extends Animal {
     public Perro(String nombre) {
         super(nombre);
