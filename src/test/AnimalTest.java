@@ -3,7 +3,8 @@ package test;
 import modelo.Perro;
 import modelo.Gato;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AnimalTest {
 
@@ -18,10 +19,4 @@ public class AnimalTest {
         Gato gato = new Gato("Misu");
         assertEquals("Miau", gato.sonido());
     }
-
-	private void assertEquals(String string, String sonido) {
-		// TODO Auto-generated method stub
-		
-	}
 }
-
